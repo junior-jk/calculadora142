@@ -128,7 +128,7 @@ public class TestCalculadora {
         assertEquals(resultadoEsperado, resultadoAtual);
 
     }
-
+    
     @ParameterizedTest
     @CsvFileSource(resources = "csv/somar.csv", numLinesToSkip = 1, delimiter = ',')
     public void testeSomarCSV(float num1, float num2, float resultadoEsperado) {
